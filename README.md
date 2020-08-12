@@ -15,9 +15,7 @@ O script tem vários parâmetros que devem ser ajustados manualmente dentro do "
 Qualquer dúvida entre em contato com: Leonardo Scabini, scabini@ifsc.usp.br
 
 Dependências:
-networkx 2.4
-matplotlib
-pickle
+networkx 2.4, matplotlib, pickle
 
 
 
