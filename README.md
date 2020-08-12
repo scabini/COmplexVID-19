@@ -3,6 +3,7 @@
 Source code for the paper:
 
 Social Interaction Layers in Complex Networks for the Dynamical Epidemic Modeling of COVID-19 in Brazil
+
 Leonardo F. S. Scabini, Lucas C. Ribas, Mariane B. Neiva, Altamir G. B. Junior, Alex J. F. Farfán, Odemir M. Bruno
 
 
