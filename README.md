@@ -8,8 +8,8 @@ Leonardo F. S. Scabini, Lucas C. Ribas, Mariane B. Neiva, Altamir G. B. Junior, 
 scabini@ifsc.usp.br
 
 The main script to perform an experiment is "run.py"
-    * Runs the dynamic network in parallel, where each thread is a different iteration (with a different random seed). The final results are the average between iterations. On this code we set 10 iterations; on the paper, 100 iterations where performed for better statistical results.
-    * The script has several parameters that should be manually adjusted according to the society one wants to model. The comments should guid you.
+   * Runs the dynamic network in parallel, where each thread is a different iteration (with a different random seed). The final results are the average between iterations. On this code we set 10 iterations; on the paper, 100 iterations where performed for better statistical results.
+   * The script has several parameters that should be manually adjusted according to the society one wants to model. The comments should guid you.
 
 
 Libraries used:
