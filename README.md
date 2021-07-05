@@ -2,22 +2,28 @@
 
 Source code for the paper:
 
-Social Interaction Layers in Complex Networks for the Dynamical Epidemic Modeling of COVID-19 in Brazil
-
+"Social interaction layers in complex networks for the dynamical epidemic modeling of COVID-19 in Brazil."
+Physica A: Statistical Mechanics and its Applications 564 (2021): 125498.
 Leonardo F. S. Scabini, Lucas C. Ribas, Mariane B. Neiva, Altamir G. B. Junior, Alex J. F. Farfán, Odemir M. Bruno
+scabini@ifsc.usp.br
+
+The main script to perform an experiment is "run.py"
+    * Runs the dynamic network in parallel, where each thread is a different iteration (with a different random seed). The final results are the average between iterations. On this code we set 10 iterations; on the paper, 100 iterations where performed for better statistical results.
+    * The script has several parameters that should be manually adjusted according to the society one wants to model. The comments should guid you.
 
 
-O script principal para realizar um experimento é o "run.py".
-Roda em paralelo usando o número de cores - 2, cada thread é uma iteração, resultados finais são a média das iterações.
-Aqui está fixo em 10 iterações, no artigo usamos 100 (ideal, melhores estatísticas porém custoso).
-
-O script tem vários parâmetros que devem ser ajustados manualmente dentro do "run.py", os comentários devem guiá-lo.
-Qualquer dúvida entre em contato com: Leonardo Scabini, scabini@ifsc.usp.br
-
-Dependências:
+Libraries used:
 networkx 2.4, matplotlib, pickle
 
 
+If you use this code, please cite:
 
-
-SCABINI, Leonardo FS et al. Social Interaction Layers in Complex Networks for the Dynamical Epidemic Modeling of COVID-19 in Brazil. arXiv preprint arXiv:2005.08125, 2020.
+@article{scabini2021social,
+  title={Social interaction layers in complex networks for the dynamical epidemic modeling of COVID-19 in Brazil},
+  author={Scabini, Leonardo FS and Ribas, Lucas C and Neiva, Mariane B and Junior, Altamir GB and Farf{\'a}n, Alex JF and Bruno, Odemir M},
+  journal={Physica A: Statistical Mechanics and its Applications},
+  volume={564},
+  pages={125498},
+  year={2021},
+  publisher={Elsevier}
+}
