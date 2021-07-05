@@ -5,7 +5,8 @@ Source code for the paper:
 "Social interaction layers in complex networks for the dynamical epidemic modeling of COVID-19 in Brazil."
 Physica A: Statistical Mechanics and its Applications 564 (2021): 125498.
 Leonardo F. S. Scabini, Lucas C. Ribas, Mariane B. Neiva, Altamir G. B. Junior, Alex J. F. Farfán, Odemir M. Bruno
-scabini@ifsc.usp.br
+
+contact: scabini@ifsc.usp.br
 
 The main script to perform an experiment is "run.py"
    * Runs the dynamic network in parallel, where each thread is a different iteration (with a different random seed). The final results are the average between iterations. On this code we set 10 iterations; on the paper, 100 iterations where performed for better statistical results.
