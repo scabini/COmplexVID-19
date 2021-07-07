@@ -23,7 +23,7 @@ networkx 2.4, matplotlib, pickle
 
 If you use this method, please cite our paper:
 
-Scabini, Leonardo FS, Lucas C. Ribas, and Odemir M. Bruno. "Spatio-spectral networks for color-texture analysis." Information Sciences 515 (2020): 64-79.
+Scabini, L. F., Ribas, L. C., Neiva, M. B., Junior, A. G., Farfán, A. J., & Bruno, O. M. (2021). Social interaction layers in complex networks for the dynamical epidemic modeling of COVID-19 in Brazil. Physica A: Statistical Mechanics and its Applications, 564, 125498.
 
 ```
 @article{scabini2021social,
