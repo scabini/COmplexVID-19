@@ -8,17 +8,24 @@ Leonardo F. S. Scabini, Lucas C. Ribas, Mariane B. Neiva, Altamir G. B. Junior, 
 
 contact: scabini@ifsc.usp.br
 
+## Usage
+
 The main script to perform an experiment is "run.py"
    * Runs the dynamic network in parallel, where each thread is a different iteration (with a different random seed). The final results are the average between iterations. On this code we set 10 iterations; on the paper, 100 iterations where performed for better statistical results.
-   * The script has several parameters that should be manually adjusted according to the society one wants to model. The comments (in portuguese) should guid you.
+   * The script has several parameters that should be manually adjusted according to the society one wants to model. The comments (in portuguese) should guide you.
 
 
 Libraries used:
 networkx 2.4, matplotlib, pickle
 
 
-If you use this code, please cite:
+## Cite
 
+If you use this method, please cite our paper:
+
+Scabini, Leonardo FS, Lucas C. Ribas, and Odemir M. Bruno. "Spatio-spectral networks for color-texture analysis." Information Sciences 515 (2020): 64-79.
+
+```
 @article{scabini2021social,
   title={Social interaction layers in complex networks for the dynamical epidemic modeling of COVID-19 in Brazil},
   author={Scabini, Leonardo FS and Ribas, Lucas C and Neiva, Mariane B and Junior, Altamir GB and Farf{\'a}n, Alex JF and Bruno, Odemir M},
@@ -28,3 +35,4 @@ If you use this code, please cite:
   year={2021},
   publisher={Elsevier}
 }
+```
