@@ -8,6 +8,10 @@ Leonardo F. S. Scabini, Lucas C. Ribas, Mariane B. Neiva, Altamir G. B. Junior, 
 
 contact: scabini@ifsc.usp.br
 
+<p align="center">
+    <img src="example.png" height="640px">
+</p>
+
 ## Usage
 
 The main script to perform an experiment is "run.py"
