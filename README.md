@@ -20,8 +20,10 @@ The main script to perform an experiment is "run.py"
 
 
 Libraries used:
-networkx 2.4, matplotlib, pickle
+See requirements file. 
 
+Python version used:
+3.10.8
 
 ## Cite
 
